@@ -7,14 +7,14 @@ import './globals.css';
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-sans',
+  variable: '--font-geist-sans',
 });
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
-  weight: ['500'],
   display: 'swap',
-  variable: '--font-accent',
+  variable: '--font-space-grotesk',
+  weights: ['300', '400', '500', '600', '700'],
 });
 
 // Main metadata configuration
@@ -123,8 +123,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`dark ${inter.variable} ${spaceGrotesk.variable}`}>
-      <body>
+    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} dark`}>
+      <body className="font-sans bg-background text-foreground">
         {children}
       </body>
     </html>
