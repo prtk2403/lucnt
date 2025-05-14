@@ -1,0 +1,24 @@
+{
+    "name": "lucnt.space",
+    "short_name": "lucnt",
+    "description": "AI-powered content management system for social media platforms",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0F172A",
+    "theme_color": "#60A5FA",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ]
+  }
