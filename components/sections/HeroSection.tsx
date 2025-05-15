@@ -31,7 +31,7 @@ export default function HeroSection() {
           </Button>
           
           </div>
-          <p className="mt-4 text-sm text-muted-foreground">No credit card required . Unlock your content's true potential. *</p>
+          <p className="mt-4 text-sm text-muted-foreground">No credit card required . Unlock your content&apos;s true potential. *</p>
         </div>
         {/* Optional: Add a subtle visual element here, maybe related to light or space */}
       </section>

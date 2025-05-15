@@ -1,4 +1,4 @@
-import { CheckCircle, Zap, BarChart2, Users, Target, Edit3, Linkedin, Twitter, Instagram, Facebook } from "lucide-react";
+import { CheckCircle, Zap, BarChart2, Users, Target, Edit3 } from "lucide-react";
 
 export default function FeaturesSection() {
     const features = [

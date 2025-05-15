@@ -6,7 +6,7 @@ export default function ProblemSolutionSection() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-accent mb-4">Tired of Content Chaos?</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-sans">
-            Managing multiple social platforms with different rules and audiences is exhausting. Generic content simply doesn't work. <span className="font-bold text-[#21e916]">lucnt.space</span> delivers the clarity you need.
+            Managing multiple social platforms with different rules and audiences is exhausting. Generic content simply doesn&apos;t work. <span className="font-bold text-[#21e916]">lucnt.space</span> delivers the clarity you need.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 items-center">

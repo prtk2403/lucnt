@@ -10,7 +10,7 @@ export default function SocialProofSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[1, 2, 3].map((i) => (
               <div key={i} className="bg-card p-6 rounded-lg shadow-md border border-border">
-                <p className="text-muted-foreground mb-4">"Lucnt.space transformed how we approach social media. The platform-adaptive AI is a game-changer for our content's reach and engagement!"</p>
+                <p className="text-muted-foreground mb-4">&quot;Lucnt.space transformed how we approach social media. The platform-adaptive AI is a game-changer for our content&apos;s reach and engagement!&quot;</p>
                 <div className="flex items-center">
                   <Image src={"https://avatar.iran.liara.run/public"} alt="User avatar" width={40} height={40} className="rounded-full mr-3" />
                   <div>
