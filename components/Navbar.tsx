@@ -2,8 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   

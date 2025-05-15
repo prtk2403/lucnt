@@ -1,4 +1,4 @@
-import { CheckCircle, Zap, BarChart2, Users, Target, Edit3, Linkedin, Twitter, Instagram, Facebook } from "lucide-react";
+import { Zap, BarChart2, Target, Edit3 } from "lucide-react";
 export default function ProblemSolutionSection() {
     return (
       <section id="why-lucnt" className=" bg-gradient-to-bl from-primary/30 via-background to-backgroundpy-16 md:py-24 bg-secondary/20 ">
