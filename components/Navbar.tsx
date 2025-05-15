@@ -56,13 +56,17 @@ export default function Navbar() {
         </motion.div>
 
         <motion.div 
-          className="flex justify-center items-center gap-4"
+          className="flex justify-between items-center gap-4"
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-         <Button className="bg-accent text-black px-4 py-2 rounded-full hover:bg-accent/80 font-sans text-md ">
-          <Link href="/signup">Login/SignUp</Link>
+
+         <Button className="bg-accent text-black p-5 hover:bg-accent/80 font-sans text-md font-semibold ">
+          <Link href="/signup">Get Started</Link>
+         </Button>
+         <Button className="bg-[#1a1a1a] text-gray-50 p-5  hover:bg-[#1a1a1a]/80 font-sans text-md font-semibold ">
+          <Link href="/login">Login</Link>
          </Button>
         </motion.div>
       </div>

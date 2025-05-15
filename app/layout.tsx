@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-space-grotesk',
-  weights: ['300', '400', '500', '600', '700'],
+  weight: ['300', '400', '500', '600', '700'],
 });
 
 // Main metadata configuration
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://lucnt.space'),
   title: {
     template: '%s | lucnt.space',
-    default: 'lucnt.space | Illuminate Your Social Presence',
+    default: 'lucnt.space | Reimagine Your Social Strategy',
   },
   description: 'AI-powered content management system that brings clarity and precision to your social media strategy, perfectly adapted for each unique platform.',
   keywords: [

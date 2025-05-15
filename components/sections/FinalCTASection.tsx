@@ -1,4 +1,4 @@
-import { ShimmerButton } from "../magicui/shimmer-button";
+import { Button } from "../ui/button";
 import Link from "next/link";
 export default function FinalCTASection() {
     return (
@@ -11,13 +11,10 @@ export default function FinalCTASection() {
             Stop guessing, start strategizing. Let Lucnt.space AI be the guiding light for your
             platform-perfect content.
           </p>
-          <ShimmerButton
-            shimmerColor="#21e916"
-            background="oklch(var(--primary))"
-            className="px-10 py-5 text-xl font-semibold"
-          >
+          <Button className="bg-primary text-lg p-6 text-primary-foreground hover:bg-primary/90">
             <Link href="/signup">Claim Your Free Account Now</Link>
-          </ShimmerButton>
+          </Button>
+          
           <p className="mt-4 text-sm text-muted-foreground">Join thousands of users lighting up their social media.</p>
         </div>
       </section>

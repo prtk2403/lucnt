@@ -41,7 +41,7 @@ export default function FeaturesSection() {
     ];
   
     return (
-      <section id="features" className="py-16 md:py-24 bg-secondary/20">
+      <section id="features" className="bg-gradient-to-br from-primary/30 via-background to-backgroundpy-16 md:py-24 bg-secondary/20">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold font-accent text-center mb-12">
             Features That Illuminate Your Path
