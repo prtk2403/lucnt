@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function SocialProofSection() {
     // Placeholder - replace with real testimonials
     return (
-      <section id="social-proof" className="py-16 md:py-24 bg-secondary/20">
+      <section id="social-proof" className="bg-gradient-to-bl from-primary/30 via-background to-backgroundpy-16py-16 md:py-24 bg-secondary/20">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold font-accent text-center mb-12">
             Trusted by Creators & Brands Who Shine

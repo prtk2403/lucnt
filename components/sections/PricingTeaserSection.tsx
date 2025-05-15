@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function PricingTeaserSection() {
     return (
-      <section id="pricing" className="py-16 md:py-24">
+      <section id="pricing" className="bg-gradient-to-tr from-primary/30 via-background to-backgroundpy-16py-16 md:py-24">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold font-accent mb-4">
             Clear Pricing for Clear Results
